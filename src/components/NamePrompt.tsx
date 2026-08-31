@@ -37,7 +37,7 @@ export function NamePrompt({ onSet }: { onSet: (name: string) => void }) {
         <button
           type="submit"
           disabled={!value.trim()}
-          className="mt-4 w-full rounded-md bg-amber-400 px-3 py-2.5 text-base font-medium text-neutral-950 hover:bg-amber-300 active:bg-amber-500 disabled:opacity-40 disabled:pointer-events-none"
+          className="mt-4 w-full rounded-md bg-sky-400 px-3 py-2.5 text-base font-medium text-neutral-950 hover:bg-sky-300 active:bg-sky-500 disabled:opacity-40 disabled:pointer-events-none"
         >
           Continue
         </button>

@@ -104,7 +104,7 @@ export function ProductLineEditor({
         type="button"
         disabled={disabled}
         onClick={addLine}
-        className="rounded-md border border-dashed border-neutral-700 px-3 py-2 text-sm text-neutral-400 hover:border-amber-400 hover:text-amber-300 disabled:opacity-40"
+        className="rounded-md border border-dashed border-neutral-700 px-3 py-2 text-sm text-neutral-400 hover:border-sky-400 hover:text-sky-300 disabled:opacity-40"
       >
         + Add product
       </button>

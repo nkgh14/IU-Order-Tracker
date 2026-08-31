@@ -15,6 +15,6 @@ body {
 
 /* Visible focus ring everywhere, keyboard or not — this is a tool, not a marketing site. */
 :focus-visible {
-  outline: 2px solid #f5c400;
+  outline: 2px solid #38bdf8;
   outline-offset: 2px;
 }

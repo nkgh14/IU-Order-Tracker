@@ -111,7 +111,7 @@ export function OrderDetailsModal({
                 className="w-full rounded-md border border-neutral-700 bg-neutral-950 px-3 py-2.5 text-base text-neutral-100"
               />
               {order.phone && (
-                <a href={telHref(order.phone)} className="mt-1 inline-block text-sm text-amber-400 hover:underline">
+                <a href={telHref(order.phone)} className="mt-1 inline-block text-sm text-sky-400 hover:underline">
                   Call {order.phone}
                 </a>
               )}
@@ -130,7 +130,7 @@ export function OrderDetailsModal({
                 className="w-full rounded-md border border-neutral-700 bg-neutral-950 px-3 py-2.5 text-base text-neutral-100"
               />
               {order.email && (
-                <a href={`mailto:${order.email}`} className="mt-1 inline-block text-sm text-amber-400 hover:underline">
+                <a href={`mailto:${order.email}`} className="mt-1 inline-block text-sm text-sky-400 hover:underline">
                   Email {order.email}
                 </a>
               )}
@@ -191,7 +191,7 @@ export function OrderDetailsModal({
                 type="button"
                 disabled={disabled}
                 onClick={() => onSetArchived(order.id, false)}
-                className="text-sm text-amber-400 hover:text-amber-300 disabled:opacity-40 disabled:pointer-events-none"
+                className="text-sm text-sky-400 hover:text-sky-300 disabled:opacity-40 disabled:pointer-events-none"
               >
                 Unarchive this order
               </button>

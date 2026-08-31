@@ -43,7 +43,7 @@ export function PasscodeGate({ onUnlock }: { onUnlock: () => void }) {
         {wrong && <p className="mt-2 text-sm text-red-400">That's not it. Try again.</p>}
         <button
           type="submit"
-          className="mt-4 w-full rounded-md bg-amber-400 px-3 py-2.5 text-base font-medium text-neutral-950 hover:bg-amber-300 active:bg-amber-500"
+          className="mt-4 w-full rounded-md bg-sky-400 px-3 py-2.5 text-base font-medium text-neutral-950 hover:bg-sky-300 active:bg-sky-500"
         >
           Unlock
         </button>

@@ -41,7 +41,7 @@ export function OrderRow({ order, onToggleStage, onOpenDetails, disabled }: Orde
           <span
             className={
               'font-mono text-sm tabular-nums rounded px-1.5 py-0.5 ' +
-              (complete ? 'text-amber-300 bg-amber-400/10' : 'text-neutral-400 bg-neutral-800')
+              (complete ? 'text-sky-300 bg-sky-400/10' : 'text-neutral-400 bg-neutral-800')
             }
           >
             {progress}/{STAGE_KEYS.length}

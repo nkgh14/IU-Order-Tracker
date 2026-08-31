@@ -60,7 +60,7 @@ export function AddOrderModal({ onClose, onSave }: AddOrderModalProps) {
         <div className="space-y-4">
           <div>
             <label htmlFor="customer-name" className="block text-sm text-neutral-400 mb-1">
-              Customer name <span className="text-amber-400">*</span>
+              Customer name <span className="text-sky-400">*</span>
             </label>
             <input
               id="customer-name"
@@ -143,7 +143,7 @@ export function AddOrderModal({ onClose, onSave }: AddOrderModalProps) {
           <button
             type="submit"
             disabled={!customerName.trim() || saving}
-            className="rounded-md bg-amber-400 px-4 py-2.5 text-sm font-medium text-neutral-950 hover:bg-amber-300 disabled:opacity-40 disabled:pointer-events-none"
+            className="rounded-md bg-sky-400 px-4 py-2.5 text-sm font-medium text-neutral-950 hover:bg-sky-300 disabled:opacity-40 disabled:pointer-events-none"
           >
             {saving ? 'Saving…' : 'Save order'}
           </button>

@@ -41,7 +41,7 @@ export function OrderList({
         <button
           onClick={onAddOrder}
           disabled={disabled}
-          className="rounded-md bg-amber-400 px-3.5 py-2 text-sm font-medium text-neutral-950 hover:bg-amber-300 disabled:opacity-40 disabled:pointer-events-none"
+          className="rounded-md bg-sky-400 px-3.5 py-2 text-sm font-medium text-neutral-950 hover:bg-sky-300 disabled:opacity-40 disabled:pointer-events-none"
         >
           + Add order
         </button>
@@ -64,7 +64,7 @@ export function OrderList({
             type="checkbox"
             checked={showArchived}
             onChange={(e) => setShowArchived(e.target.checked)}
-            className="h-4 w-4 accent-amber-400"
+            className="h-4 w-4 accent-sky-400"
           />
           Show archived
         </label>
@@ -76,7 +76,7 @@ export function OrderList({
           <p className="text-neutral-500 text-sm mb-4">Add the first one to get started.</p>
           <button
             onClick={onAddOrder}
-            className="rounded-md bg-amber-400 px-4 py-2.5 text-sm font-medium text-neutral-950 hover:bg-amber-300"
+            className="rounded-md bg-sky-400 px-4 py-2.5 text-sm font-medium text-neutral-950 hover:bg-sky-300"
           >
             + Add order
           </button>

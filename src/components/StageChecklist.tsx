@@ -26,7 +26,7 @@ export function StageChecklist({ order, onToggle, disabled, compact }: StageChec
                 ? 'flex items-center gap-1.5 px-2 py-1.5 text-xs '
                 : 'flex items-center gap-3 px-3 py-3 text-sm ') +
               'rounded-md border border-neutral-700 bg-neutral-900 text-neutral-300 select-none transition-colors ' +
-              'has-[:checked]:border-amber-400 has-[:checked]:bg-amber-400/10 has-[:checked]:text-amber-300 ' +
+              'has-[:checked]:border-sky-400 has-[:checked]:bg-sky-400/10 has-[:checked]:text-sky-300 ' +
               (disabled
                 ? 'opacity-50 pointer-events-none'
                 : 'cursor-pointer hover:border-neutral-600')
@@ -37,7 +37,7 @@ export function StageChecklist({ order, onToggle, disabled, compact }: StageChec
               checked={checked}
               disabled={disabled}
               onChange={(e) => onToggle(key, e.target.checked)}
-              className={compact ? 'h-4 w-4 accent-amber-400' : 'h-5 w-5 accent-amber-400'}
+              className={compact ? 'h-4 w-4 accent-sky-400' : 'h-5 w-5 accent-sky-400'}
             />
             {STAGE_LABELS[key]}
           </label>
